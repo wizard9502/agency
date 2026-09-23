@@ -1,15 +1,35 @@
-# Agency Contracts
+# Agency Contracts (Free / Testnet First)
 
-Solidity contracts for the Agency launchpad.
+Completely free development path.
 
-## Planned
-- `AgencyFactory.sol` — permissionless token creation
-- `BondingCurve.sol` — automated market maker / price discovery
-- Modules:
-  - CreatorEquity (revenue share)
-  - SkillForge (unlocks / access)
-  - OpenTools (milestones / public goods graduation)
+## Goal
+Replicate the core of Pump.fun (excluding livestream):
+- Permissionless token creation
+- Bonding curve trading
+- Fair launch
+- Creator fee share
+- Graduation-ready design
 
-Primary deployment: Arc (liquidity)
-Secondary: BNB Chain
-Future: Arbitrum, Base, Robinhood Chain, Solana
+## Chains (testnets first)
+- Arc Testnet (primary)
+- BNB Testnet
+- Later: Robinhood Chain, Solana, etc.
+
+## Structure
+```
+contracts/
+├── AgencyFactory.sol      # Creates new tokens + bonding curves
+├── BondingCurve.sol       # Constant-product curve + trading
+├── AgencyToken.sol        # Simple ERC20
+└── interfaces/
+```
+
+## How to use (100% free)
+1. Install Foundry or Hardhat (free)
+2. Deploy to any free testnet
+3. No mainnet gas needed until you are ready
+
+## Next steps
+- Deploy to Arc / BNB testnet
+- Connect frontend
+- Add graduation logic
