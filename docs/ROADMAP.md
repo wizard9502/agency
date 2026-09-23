@@ -5,10 +5,11 @@
 - [x] GitHub repository
 - [x] Minimalist landing page
 - [x] Project structure
-- [x] Vercel project connected
+- [x] Multi-chain positioning (Arc, BNB, Robinhood Chain, Solana)
+- [x] Native token launch planned on Arc
 
 ## Phase 2 – MVP
-- Smart contract factory + bonding curves (Arc + BNB)
+- Smart contract factory + bonding curves (Arc primary liquidity + BNB)
 - Privy wallet integration (embedded + external)
 - Launch form with 3 categories
 - Discovery feed
@@ -22,8 +23,7 @@
 - Analytics dashboard
 
 ## Phase 4 – Multi-chain & Scale
-- Arbitrum, Base, Robinhood Chain
-- Solana support
+- Full support on Arbitrum, Base, Robinhood Chain, Solana
 - Cross-chain liquidity / bridging
 - Governance & fee switch
 - Partnerships & growth loops
